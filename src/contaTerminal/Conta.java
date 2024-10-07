@@ -53,7 +53,7 @@ public class Conta {
         System.out.print("\n");
         
         System.out.println("Agência: ".concat(this.getAgencia()));
-        System.out.println("ContaTerminal.Conta: " + this.getNumero());
+        System.out.println("Conta: " + this.getNumero());
         System.out.println("Saldo: ".concat(this.getSaldo()));
     }
 }
