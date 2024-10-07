@@ -1,4 +1,4 @@
-# DIO - Projeto - contaTerminal.Conta Banco 
+# DIO - Projeto - Conta Banco 
 
 `Projeto realizado para práticar o que foi aprendido no módulo de Sintaxe`
 
@@ -9,13 +9,12 @@
 - [X] Dentro do projeto, crie a classe contaTerminal.contaTerminal.java para realizar toda a codificação do nosso programa.
 
 ## Arquivos
-- `contaTerminal.contaTerminal:` a parte lógica da conta.
-- `contaTerminal.Conta:` classe que representa uma conta bancária.
+- `contaTerminal:` a parte lógica da conta.
+- `Conta:` classe que representa uma conta bancária.
   
 ## Entrada de dados:
 
 ```java
-
     conta.setNome(scanner.nextLine()); // String
     conta.setNumero(scanner.nextInt()); // int
     conta.setAgencia(scanner.next()); // String
@@ -26,19 +25,11 @@
 ## Saída de dados:
 
 ```java
-
-import contaTerminal.Conta;-BANCO JAVA -
-Olá NATALIA
-FRANCISCA,
-obrigado por
-criar uma
-conta em
-nosso banco.
-
-Agência:012-3
-Conta:1290
-Saldo:R$ 1200,00
-
+    -BANCO JAVA -
+    Olá NATALIA FRANCISCA, obrigado por criar uma conta em nosso banco.
+    Agência:012-3
+    Conta:1290
+    Saldo:R$ 1200,00
 ```
 
 ## Melhorias:
