@@ -6,16 +6,15 @@
 
 ## Desafio
 - [X] Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-- [X] Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.
+- [X] Dentro do projeto, crie a classe contaTerminal.contaTerminal.java para realizar toda a codificação do nosso programa.
 
 ## Arquivos
-- `ContaTerminal:` a parte lógica da conta.
+- `contaTerminal:` a parte lógica da conta.
 - `Conta:` classe que representa uma conta bancária.
   
 ## Entrada de dados:
 
 ```java
-
     conta.setNome(scanner.nextLine()); // String
     conta.setNumero(scanner.nextInt()); // int
     conta.setAgencia(scanner.next()); // String
@@ -24,15 +23,13 @@
 ```
 
 ## Saída de dados:
+
 ```java
-
-    - BANCO JAVA -
+    -BANCO JAVA -
     Olá NATALIA FRANCISCA, obrigado por criar uma conta em nosso banco.
-
-    Agência: 012-3
-    Conta: 1290
-    Saldo: R$ 1200,00
-
+    Agência:012-3
+    Conta:1290
+    Saldo:R$ 1200,00
 ```
 
 ## Melhorias:

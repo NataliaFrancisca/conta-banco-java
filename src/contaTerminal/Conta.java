@@ -1,3 +1,5 @@
+package contaTerminal;
+
 public class Conta {
     private int numero;
     private String agencia;
